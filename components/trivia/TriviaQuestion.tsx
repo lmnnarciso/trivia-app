@@ -48,13 +48,13 @@ const TriviaQuestion = ({
     } else {
       setSelectedRadio("");
     }
-  }, [index]);
+  }, [index, state]);
 
   useEffect(() => {
     if (selectedRadio !== "" && enterKey) {
       handleConfirmAnswer();
     }
-  }, [enterKey]);
+  }, [enterKey, selectedRadio, handleConfirmAnswer]);
 
   return (
     <div>
