@@ -1,0 +1,105 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Entertainment: Comics",
+            "type": "boolean",
+            "difficulty": "hard",
+            "question": "In the comic book &quot;Archie&quot;, Betty is friends with Veronica because she is rich.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "boolean",
+            "difficulty": "hard",
+            "question": "The IBM PC used an Intel 8008 microprocessor clocked at 4.77 MHz and 8 kilobytes of memory.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "boolean",
+            "difficulty": "hard",
+            "question": "Nazi Germany surrendered on Harry Truman&#039;s birthday while he was president.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Entertainment: Board Games",
+            "type": "boolean",
+            "difficulty": "hard",
+            "question": "The board game Go has more possible legal positions than the number of atoms in the visible universe.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Science: Mathematics",
+            "type": "boolean",
+            "difficulty": "hard",
+            "question": "In Topology, the complement of an open set is a closed set.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Science & Nature",
+            "type": "boolean",
+            "difficulty": "hard",
+            "question": "The value of one Calorie is different than the value of one calorie.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Entertainment: Japanese Anime & Manga",
+            "type": "boolean",
+            "difficulty": "hard",
+            "question": "In the &quot;Kagerou Daze&quot; series, Shintaro Kisaragi is prominently shown with the color red.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "boolean",
+            "difficulty": "hard",
+            "question": "The term &quot;GTO&quot; was originated by Ferrari?",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Entertainment: Film",
+            "type": "boolean",
+            "difficulty": "hard",
+            "question": "YouTube personality Jenna Marbles served as an executive producer of the film Maximum Ride (2016).",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Entertainment: Video Games",
+            "type": "boolean",
+            "difficulty": "hard",
+            "question": "The Paradox Interactive game &quot;Stellaris&quot; was released in 2016.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        }
+    ]
+}
