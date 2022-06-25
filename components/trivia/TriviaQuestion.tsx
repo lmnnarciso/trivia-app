@@ -1,4 +1,10 @@
-import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import {
+  Dispatch,
+  SetStateAction,
+  useCallback,
+  useEffect,
+  useState,
+} from "react";
 import styled from "styled-components";
 import useKeyPress from "../../hooks/useKeyPress";
 import { useStateContext } from "../../hooks/useStateContext";
@@ -29,13 +35,13 @@ const TriviaQuestion = ({
 
   const enterKey: boolean = useKeyPress("Enter");
 
-  const handleConfirmAnswer = () => {
+  const handleConfirmAnswer = useCallback(() => {
     setState({
       ...state,
       [index]: selectedRadio,
     });
     setTriviaNo((prev) => prev + 1);
-  };
+  }, [state, setState, index, selectedRadio, setTriviaNo]);
 
   const handleBack = () => {
     setTriviaNo((prev) => prev - 1);
